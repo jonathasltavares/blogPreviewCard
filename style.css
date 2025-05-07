@@ -47,6 +47,7 @@ article {
   box-shadow: 8px 8px 0px black;
   min-width: 384px;
   min-height: 522px;
+
   border: 1px solid var(--gray-950);
   border-radius: 24px;
 
@@ -59,6 +60,10 @@ article {
 }
 article:hover h1 {
   color: var(--yellow);
+}
+
+article > img {
+  border-radius: 10px;
 }
 section {
   width: 336px;
@@ -94,11 +99,13 @@ h1 {
   font-size: var(--text-size-1);
   color: var(--gray-950);
   margin: 0;
+
+  height: 36px;
 }
 article > section > p {
   font-family: var(--font-medium);
   font-size: var(--text-size-2);
-
+  color: var(--gray-500);
   margin: 0;
 }
 .author {
